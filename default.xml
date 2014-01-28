@@ -11,7 +11,10 @@
 
   <remote  name="cm"
            fetch="https://github.com/" />
-
+           
+  <remote  name="k2wl"
+           fetch="https://github.com/" />
+           
   <remote name="omni"
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
@@ -521,5 +524,5 @@
 
   <!-- <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="kitkat" /> -->
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="kitkat" />
+  <project path="platform_manifest" name="k2wl/platform_manifest" remote="k2wl" revision="master" />
 </manifest>
